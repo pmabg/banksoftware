@@ -28,3 +28,17 @@ var displayBalance = function (money) {
 };
 
 
+/** @function myFunctionName
+ *
+ * @description Опиши накратко какво прави функцията
+ * @example
+ * примерно използване на функцията. Например myFunctionName(2021);
+ * @param {string} year - Например календарната година
+ */
+var myFunctionName = function (year) {
+
+    // Направи някакво действие във функцията.
+
+};
+
+
