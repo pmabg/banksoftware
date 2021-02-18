@@ -27,4 +27,17 @@ var displayBalance = function (money) {
 
 };
 
+/** @function SomeFunction
+ *
+ * @description This function logs in the user only if the year is 2021
+ * @example
+ * SomeFunction(2021);
+ * @param {"Blabla"} 2021 - 
+ */
+var SomeFunction = function (2021) {
+
+    log in the user
+
+};
+
 
