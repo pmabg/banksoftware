@@ -31,7 +31,7 @@ var displayBalance = function (money) {
  *
  * @description This function logs in the user only if the year is 2021
  * @example
- * SomeFunction(2021);
+ * SomeFunction (2021);
  * @param {"Blabla"} 2021 - 
  */
 var SomeFunction = function (2021) {
