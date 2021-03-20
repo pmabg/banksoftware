@@ -6,7 +6,7 @@
  * @param {string} paymentMethodName - The name of the current payment method
  */
 var displayActivePaymentMethod = function (paymentMethodName) {
-    
+
     document.write("Your activate payment method is: " + paymentMethodName);
 
 };
@@ -22,9 +22,19 @@ var displayActivePaymentMethod = function (paymentMethodName) {
 var displayBalance = function (money) {
 
     var currency = "BGN";
-    
+
     document.write("Your balance is: " + money + currency);
 
 };
 
+/** @function displayUserID
+*
+* @description Displays the user's ID
+* @example
+* displayUserID (1246);
+* @param {string} userID - the ID of the user
+*/
 
+ var displayUserID = function (userID) {
+   document.write("Your ID is: "+ userID);
+ };
