@@ -26,12 +26,12 @@ var displayBalance = function (money) {
     document.write("Your balance is: " + money + currency);
 
 };
-/** @function displayBalanceEvening2
+/** @function displayBalanceEvening3
  *
- * @description Displays balance in the evening2
+ * @description Displays balance in the evening3
  * @example
  * displayBalanceEvening2 (1000);
- * @param {string} money - Balance of the client in the evening2
+ * @param {string} money - Balance of the client in the evening3
  */
 var displayBalanceEvening = function (money) {
 
