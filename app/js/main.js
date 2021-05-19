@@ -26,5 +26,19 @@ var displayBalance = function (money) {
     document.write("Your balance is: " + money + currency);
 
 };
+/** @function displayBalanceEvening
+ *
+ * @description Displays balance in the evening
+ * @example
+ * displayBalanceEvening (1000);
+ * @param {string} money - Balance of the client in the evening
+ */
+var displayBalanceEvening = function (money) {
+
+   var currency = "BGN";
+    
+    document.write("Your evening balance is: " + money + currency);
+
+};
 
 
