@@ -31,5 +31,5 @@ function show_random_number() {
 
   var random_number = Math.random(); // generate random number 
   alert(random_number); // show popup with a random number
-}
+};
 
