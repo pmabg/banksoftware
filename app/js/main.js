@@ -27,4 +27,16 @@ var displayBalance = function (money) {
 
 };
 
+/** @function dispalyIBAN
+ *
+ * @description dispalay the IBAN of the client/user
+ * @example
+ * dispalyIBAN("UBBSBGSF94302293211");
+ * @param {string} iban - The current IBAN of the client/user
+ */
+ var dispalyIBAN = function (iban) {
+    
+    document.write("Your IBAN is: " + iban);
+};
+
 
