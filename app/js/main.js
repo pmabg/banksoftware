@@ -27,4 +27,17 @@ var displayBalance = function (money) {
 
 };
 
+/** @function displayDate
+ *
+ * @description Displays the date of the 
+ * @example
+ * displayBalance(8361031);
+ * @param {string} money - The balance of the client/user
+ */
+var displayBalance = function (money) {
 
+    var currency = "BGN";
+    
+    document.write("Your balance is: " + money + currency);
+
+};
