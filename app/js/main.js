@@ -28,3 +28,15 @@ var displayBalance = function (money) {
 };
 
 
+/**
+ * @function displayUsername
+ * @description Displays the username of the client
+ * @example
+ * displayUsername('JohnDoe');
+ * @param {string} username - The username of the client/user
+ */
+var displayUsername = function (username) {
+
+    document.write("Hello, " + username);
+
+};
