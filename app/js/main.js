@@ -12,6 +12,7 @@ var displayActivePaymentMethod = function (paymentMethodName) {
 };
 
 
+
 /** @function displayBalance
  *
  * @description Displays the balance of the client
