@@ -27,4 +27,21 @@ var displayBalance = function (money) {
 
 };
 
+/** @function addNumbers
+ *
+ * @description The function adds up two numbers
+ * @example
+ * addNumbers(1,1);
+ * @param {number} firstNumber - This is the first number from the calculation
+ * @param {number} secondNumber - This is the second number from the calculation
+ */
+
+var myFunctionName = function (firstNumber, secondNumber) {
+
+    var addedNumber = firstNumber + secondNumber;
+
+    console.log("The added number is: " + (addedNumber));
+
+};
+
 
