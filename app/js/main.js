@@ -28,3 +28,19 @@ var displayBalance = function (money) {
 };
 
 
+/** @function processPayment
+ *
+ * @description Processes the payment and updates the balance
+ * @example
+ * processPayment(50);
+ * @param {number} amount - The payment amount
+ */
+var processPayment = function (amount) {
+    // Logic to process the payment
+
+    // Update the balance
+    displayBalance(money - amount);
+};
+
+// Example usage of the new function
+processPayment(50);
